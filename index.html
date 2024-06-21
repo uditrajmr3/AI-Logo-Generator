@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Logo Generator</h1>
+        <div class="controls">
+            <input type="text" id="text" placeholder="Enter Logo Text">
+            <input type="color" id="color" value="#000000">
+            <button onclick="generateLogo()">Generate Logo</button>
+        </div>
+        <canvas id="logoCanvas" width="400" height="200"></canvas>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
